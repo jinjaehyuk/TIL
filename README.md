@@ -1,3 +1,4 @@
 # TIL
-   ### [PYTHON](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON)
+## PYTHON
+   ### [PYTHON 기초](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON)
 
