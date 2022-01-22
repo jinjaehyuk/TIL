@@ -1,6 +1,6 @@
-	## None 
-		* 비어있는 값을 나냄
-		* None  사용시 자동으로 생성
+##  None 
+* 비어있는 값을 나타냄
+* None  사용시 자동으로 생성
         
 	- bool ( True or False )
 		- 논리값 ,true or false
