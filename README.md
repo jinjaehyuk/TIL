@@ -1,2 +1,2 @@
 # TIL
-   ### [PYTHON](https://github.com/jinjaehyuk/TIL/PYTHON/)
+   ### [PYTHON](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON)
