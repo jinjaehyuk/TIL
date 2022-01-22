@@ -1,6 +1,8 @@
 ## 랜덤(숫자) 
 * import
-#### ```import random```
+```
+import random
+```
 * 랜덤 정수 만들기
 	* randint ( 시작정수 ,끝 포함 정수) 
 		* 시작정수 ~ 끝 포함 정수까지 정수중 랜덤
