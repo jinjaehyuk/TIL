@@ -2,10 +2,10 @@
 * 비어있는 값을 나타냄
 * None  사용시 자동으로 생성
         
-	- bool ( True or False )
-		- 논리값 ,true or false
-		- True or False 사용시 자동으로 생성
-		- not true 대소문자 주의
+## bool ( True or False )
+* 논리값 ,true or false
+* True or False 사용시 자동으로 생성
+* not true 대소문자 주의
 
 	- 숫자 ( 정수 / 실수 )
 		- 정수
