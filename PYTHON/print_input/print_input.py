@@ -9,3 +9,5 @@ name = input() # jin
 print('hello', name) #hello jin
 
 print('hello data\r\ndata hello')
+
+##폴더명변경
