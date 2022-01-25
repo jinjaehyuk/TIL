@@ -6,6 +6,6 @@
     * #### [날짜_시간](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Date_Time/date_time.md)
     * #### [날짜 > 문자열](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Date_Time/date_to_string.md)
     * #### [문자열 > 날짜](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Date_Time/string_to_date.md)
-
-
+   
+ * #### [입력_출력](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/print_input/print_input.md)
 
