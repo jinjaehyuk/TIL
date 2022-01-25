@@ -45,13 +45,13 @@
         * 종이 오른쪽으로 밀기
     * 라인 피드 (Line Feed)
         * 종이 위로 밀기
-    ```
+        ```
         print('hello data\r\data hello')
         # \r\n : 캐리지 리턴 + 라인피드, 윈도우즈 운영 체제에서의 줄바꿈
         #\n : 라인피드, 유닉스 (맥) 운영체제에서의 줄바꿈
         # hello data
           data hello
-    ```
+         ```
     * \t
         * 탭
         ```
