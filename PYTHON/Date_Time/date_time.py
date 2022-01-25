@@ -45,7 +45,7 @@ timedelta = datetime.datetime(2030, 1, 1) - current_datetime
 print(type(timedelta))
 
 print('2030년 1월 1일 까지는 {}일 {}초 남았습니다'.format(timedelta.days, timedelta.seconds))
-print(new_datetime)
+print(new_datetime) 
 
 
 
