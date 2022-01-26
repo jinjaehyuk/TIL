@@ -1,7 +1,7 @@
 ## 날짜시간 문자열 포매팅
    * {} 포맷코드 대신 %알파벳 포맷코드 사용
    * 날짜시간을 문자열로 변환
-    ```
+    ```py
     import datetime
 
     current_datetime = datetime.datetime.now() #현재 날짜시간 생성(2022-01-22 22:17:46.993637)
