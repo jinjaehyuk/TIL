@@ -5,7 +5,7 @@
 
     * now() 혹은 datetime() 함수 호출
     > ```datetime.datetime(년 ,월 ,일, 시, 분, 초, 마이크로초) #지정된 날짜시간 생성```
-    ```
+    ```py
         import datetime
         
         current_datetime = datetime.datetime.now() #현재 날짜시간 생성(2022-01-22 22:17:46.993637)
@@ -16,7 +16,7 @@
     ```
 * 날짜시간 수정
     * replace() 함수 사용
-    ```
+    ```py
         import datetime
 
         current_datetime = datetiem.datetime.now()
@@ -31,7 +31,7 @@
 
 * 며칠 후 날짜시간 구하기
     * timedelta 더하기
-    ```
+    ```py
         import datetime
         
         ##days
@@ -63,7 +63,7 @@
     ```
 * 날짜시간 간격 구하기
     * 날짜시간끼리 빼기
-    ```
+    ```py
     import datetime
 
     current_datetime = datetime.datetime.now()

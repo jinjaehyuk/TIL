@@ -1,6 +1,6 @@
 ## 랜덤(숫자) 
 * import
-```
+```py
 import random
 ```
 * 랜덤 정수 만들기
