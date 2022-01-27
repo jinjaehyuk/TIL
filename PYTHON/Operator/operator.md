@@ -42,5 +42,40 @@ print((3 + 2) * 2) #10
     ```
     
 ## 비교 연산자
+* 비교연산자
+    * 양쪽 값을 비교, 결과값은 True 혹은 False
+    ```py
+        ==, !=, >, <, >=, <=
+    ```
+    ```py
+    #동등 비교
+    print(3 == 2) # False #값이 같으면 True
+    print(3 != 2) # True #값이 다르면 False
+    #대소 비교
+    print(3 > 2) #Ture 
+    print(3 < 2) #False
+    #대소 비교와 동등 비교를 동시에
+    print(3 >= 2) #True #값이 크거나 같으면 True
+    print(3 <= 2) #False #값이 작거나 같으면 True
+    ```
 
 ## 논리연산자
+* 논리연산자
+    * 논리값 (True 혹은 False)을 연산해 새로운 논리값 도출
+    ```
+    논리값 and 논리값 : 양쪽 모두 참이면 참
+    논리값 or 논리값 : 둘 중 어느 한쪽만 참이여도 참
+    not 논리값 : True 면 False, False or True
+    and, or, not
+    (&&, ||, !가 아님)
+    ```
+    ```py
+    print(False and True) #False
+    print(False or True) #True
+    print(not False) #True
+
+    print((3==2) and (3 != 2)) #False
+    print((3==2) or (3 != 2)) #True
+    print(not (3 != 2)) #True
+    ```
+
