@@ -9,3 +9,4 @@
 * #### [연산자](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Operator/operator.md)
 * #### [조건문](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Conditional/conditional.md)
 * #### [반복문](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Iteration/iteration.md)
+* #### [컬렉션 데이터 타입](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/CollectionType/collectiontype.md)
