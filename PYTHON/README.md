@@ -11,3 +11,5 @@
 * #### [반복문](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Iteration/iteration.md)
 * #### [컬렉션 데이터 타입](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/CollectionType/collectiontype.md)
 * #### [카운터](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Counter/counter.md)
+* #### [함수](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Function/Function.md)
+
