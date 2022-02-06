@@ -9,4 +9,4 @@
     * 다양한 기본 미들웨어를 사용해 웹 어플리케이션 보안성이 높다.
 
 * 프로젝트 구조
-![구조](/django_structure.png)
+ <img src="django_structure.jpg"  width="300" height="200">

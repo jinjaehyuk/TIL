@@ -1,2 +1,2 @@
 ## Django
-* #### [Django](https://github.com/jinjaehyuk/TIL/tree/jin/PYTHON/Django/django.md)
+* #### [Django](https://github.com/jinjaehyuk/TIL/tree/jin/Django/django.md)
