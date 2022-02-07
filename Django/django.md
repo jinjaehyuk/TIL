@@ -8,5 +8,21 @@
     * 데이터베이스와 통신을 위해 다양한 드라이버를 지원하고 ORM 방식을 통해 데이터베이스를 다룰 수 있다.
     * 다양한 기본 미들웨어를 사용해 웹 어플리케이션 보안성이 높다.
 
+## 프로젝트 구조
+<img src="django_structure.jpg"  width="300" height="200"> 
+
 * 프로젝트 구조
- <img src="django_structure.jpg"  width="300" height="200">
+    * config 폴더
+        * 프로젝트 설정파일
+        * 웹 서비스 실행을 위한 파일
+            * __init__.py : 2.x 버전과의 호환을 위해 만들어졌다.
+            * settings.py : 프로젝트 설정에 관한 다양한 내용들이 들어있다.
+            * urls.py
+                * 한 프로젝트 안에 여러개의 urls파일을 만드는 파일
+                * config폴더 안에 있는 urls 파일이 최초로 탐색되는 기준 url 파일
+                * wsgi.py : 웹서비스를 실행하기 위한 wsgi관련 내용이 들어있다.
+            * venv 폴더 
+                * 프로젝트 구동에 필요한 가상환경이 들어있는 폴더( 되도록 수정 삭제 X)
+            * db.sqlite3 : SQLite3 DB파일 (임의 수정삭제 X)
+            * manage.py
+                * 장고의 다양한 명령어를 실행하기 위한 파일( 임의 변경 X)
