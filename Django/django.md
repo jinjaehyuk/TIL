@@ -95,3 +95,11 @@
  |dbshell|DB에 직접 접근할 수 있는 쉘을 실행 <br> SQL구문을 직접 수정하고 싶다면 dbshell이용|
  |createsuperuser|관리자 계정 생성|
  |changepassword|계정의 비밀번호 변경|
+
+## MTV
+* MTV
+    * Model - Template - View
+    * MVC / MTV
+        * Model / Model - View/Template - Controller / View
+        * 단어 뜻 보다는 같은 위치에 있는 것들 끼리 똑같은 역할을 수행
+
