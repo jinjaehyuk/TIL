@@ -103,3 +103,26 @@
         * Model / Model - View/Template - Controller / View
         * 단어 뜻 보다는 같은 위치에 있는 것들 끼리 똑같은 역할을 수행
 
+* models.py
+    * DB의 명세를 관리
+    * ORM (Object Relation Mapping)이라는 기능을 사용
+* admin.py
+    * 자신이 만든 모델을 관리자 페이지에서 확인하거나 특별한 기능을 추가하고 싶다면 해당 페이지에서 내용을 작성
+* views.py
+    * CRUD 페이지를 하나하나 만들때에는 views에 해준다
+    * 클래스형 뷰
+    * 함수형 뷰
+* urls.py
+    * views.py에 어떤 기능을 만들면 해당 기능을 동작시키는 방식은 url 호출이 주가 된다.
+    * 어떤 url을 이용해 views를 동작시킬까 결정을 할 떄 urls.py에 기록
+    * 프로젝트 urls.py와 각 앱에 해당하는 urls.py들로 구성
+    * path 함수는 path(route, view, kwargs, name) 형태로 호출
+        * route : 주소
+        * view : route의 주소로 접근 했을 때 호출할 뷰
+        * kwargs : 뷰에 전달할 값들
+        * name 
+            * route의 이름을 의미
+            * 이 이름을 가지고 원하는 곳에서 주소를 호출해 출력하거나 사용할 수 있다.
+* templates
+    * 보통 HTML이 들어있는 파일
+    * 확장자는 html이 대부분이지만 안에는 html이 아닌 템플릿 코드들도 들어있다.
