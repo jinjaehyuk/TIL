@@ -4,6 +4,6 @@
  
 ## Django
 * #### [Django](https://github.com/jinjaehyuk/TIL/tree/jin/Django/)
-* #### [Django 예제](https://github.com/jinjaehyuk/TIL/tree/jin/Django/Django_example/Django_example.md)
+* #### [Django 예제](https://github.com/jinjaehyuk/TIL/tree/jin/Django/Django_example/django_example.md)
  
 
