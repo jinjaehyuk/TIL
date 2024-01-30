@@ -25,7 +25,6 @@ public class UserDao {
         }catch(Exception ex){
             ex.printStackTrace();
         }
-
     }
 
     public List<User> getUsers(){
@@ -33,7 +32,6 @@ public class UserDao {
         if(file.exists()){
             return new ArrayList<>();
         }
-
         List<User> list = null;
         try(ObjectInputStream in = new ObjectInputStream(new FileInputStream(filename))){
             list = (List<User>)in.readObject();
