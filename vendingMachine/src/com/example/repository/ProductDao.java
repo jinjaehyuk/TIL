@@ -23,7 +23,6 @@ public class ProductDao {
             String content = "";
             for(Product product : products){
                 content += product.toString();
-                System.out.println(content);
             }
             bw.write(content);
             bw.flush();

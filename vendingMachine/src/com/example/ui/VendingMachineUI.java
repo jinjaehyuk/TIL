@@ -4,6 +4,8 @@ import com.example.domain.Product;
 
 import java.io.BufferedReader;
 import java.io.InputStreamReader;
+import java.util.Collections;
+import java.util.Comparator;
 import java.util.Iterator;
 import java.util.List;
 
@@ -51,6 +53,8 @@ public class VendingMachineUI {
     }
 
     public void printUserList(List<Product> products){
+        Comparator<Product> numComparator = Comparator.comparingInt(Product::getProductNum);
+        Collections.sort(products,numComparator);
         System.out.println("번호\t\t\t이름\t\t\t가격\t\t\t남은수량");
         System.out.println("========================================");
         for(Product product : products){
@@ -60,6 +64,18 @@ public class VendingMachineUI {
             System.out.print(product.getProductCnt());
             System.out.println();
         }
+    }
+
+    public int selectProduct(){
+        System.out.print("품목 번호를 입력해주세요.:");
+        int productNum = 0;
+        try{
+            String line = br.readLine();
+            productNum = Integer.parseInt(line);
+        }catch(Exception e){
+            e.printStackTrace();
+        }
+        return productNum;
     }
 
 }
