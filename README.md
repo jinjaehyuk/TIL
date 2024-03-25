@@ -1,4 +1,4 @@
-# TIL
+# TIL.
 ## Java
 * #### [Java 회원관리 프로그램](https://github.com/jinjaehyuk/TIL/tree/main/java)
 * #### [Java 자판기 프로그램](https://github.com/jinjaehyuk/TIL/tree/main/vendingMachine) 
