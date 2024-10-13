@@ -7,7 +7,7 @@ public class CarMain2 {
 
         GasCar gasCar = new GasCar();
         gasCar.move();
-        
+
 
     }
 }
